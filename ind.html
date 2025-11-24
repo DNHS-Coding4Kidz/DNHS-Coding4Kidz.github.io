@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding4Kidz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div style="font-size: 1.5rem; font-weight: bold; color: #ff6b35;">Coding4Kidz</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="animated-bg">
+            <div class="gradient-overlay"></div>
+            <div class="coding-terminal terminal-1">
+                <div class="terminal-header">
+                    <div class="terminal-controls">
+                        <span class="control-dot red"></span>
+                        <span class="control-dot yellow"></span>
+                        <span class="control-dot green"></span>
+                    </div>
+                    <span class="terminal-title">Python Game Development</span>
+                </div>
+                <div class="terminal-content">
+                    <div>$ python game.py</div>
+                    <div>Initializing pygame...</div>
+                    <div>Loading assets...</div>
+                    <div>Game started!</div>
+                </div>
+            </div>
+            <div class="coding-terminal terminal-2">
+                <div class="terminal-header">
+                    <div class="terminal-controls">
+                        <span class="control-dot red"></span>
+                        <span class="control-dot yellow"></span>
+                        <span class="control-dot green"></span>
+                    </div>
+                    <span class="terminal-title">Web Development Console</span>
+                </div>
+                <div class="terminal-content">
+                    <div>console.log("Hello World!");</div>
+                    <div>Building project...</div>
+                    <div>Server running on port 3000</div>
+                </div>
+            </div>
+            <div class="coding-terminal terminal-3">
+                <div class="terminal-header">
+                    <div class="terminal-controls">
+                        <span class="control-dot red"></span>
+                        <span class="control-dot yellow"></span>
+                        <span class="control-dot green"></span>
+                    </div>
+                    <span class="terminal-title">Roblox Studio Output</span>
+                </div>
+                <div class="terminal-content">
+                    <div>Script loaded successfully</div>
+                    <div>Player joined game</div>
+                    <div>Creating awesome experience!</div>
+                </div>
+            </div>
+            <div class="coding-terminal terminal-4">
+                <div class="terminal-header">
+                    <div class="terminal-controls">
+                        <span class="control-dot red"></span>
+                        <span class="control-dot yellow"></span>
+                        <span class="control-dot green"></span>
+                    </div>
+                    <span class="terminal-title">Java Application</span>
+                </div>
+                <div class="terminal-content">
+                    <div>javac Main.java</div>
+                    <div>Compilation successful</div>
+                    <div>java Main</div>
+                    <div>Program running...</div>
+                </div>
+            </div>
+        </div>
+        <div class="content hero-content">
+            <div class="hero-badge">Join 200+ Young Coders</div>
+            <h1 class="hero-title">Learn to Code</h1>
+            <div class="hero-subtitle">
+                <span class="typing-text" id="typingText"></span>
+            </div>
+            <a href="#signup" class="hero-cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="orange-section">
+        <div class="content">
+            <h1>About Us</h1>
+            <p>Coding4Kidz is a non-profit organization created at Del Norte High School with the mission to teach kids basic coding and introduce them to the STEM field. Our sessions typically last about 2 months and cover Scratch, Python, and Java programming.</p>
+            <div class="mission-statement">
+                <h2>Mission Statement</h2>
+                <p>"We created Coding4Kidz to introduce coding to younger students so that they can be better prepared for the growing technological field."</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="grey-section">
+        <div class="content">
+            <h1>Our Programs</h1>
+            <div class="program-cards">
+                <div class="program-card">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🎮</div>
+                    <h2>PyGame</h2>
+                    <p>Learn game development with Python and PyGame! Create your own 2D games while learning programming fundamentals.</p>
+                    <ul class="program-features">
+                        <li>Basic Python programming</li>
+                        <li>Game mechanics and physics</li>
+                        <li>Graphics and animation</li>
+                        <li>Sound and music integration</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🎨</div>
+                    <h2>Scratch</h2>
+                    <p>Perfect for beginners! Learn programming concepts through visual block-based coding.</p>
+                    <ul class="program-features">
+                        <li>Visual programming</li>
+                        <li>Interactive stories</li>
+                        <li>Simple games</li>
+                        <li>Creative animations</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <div style="font-size: 4rem; margin-bottom: 1rem;">🎯</div>
+                    <h2>Roblox Lua</h2>
+                    <p>Build and program your own Roblox games! Learn Lua scripting to create interactive 3D experiences.</p>
+                    <ul class="program-features">
+                        <li>Lua programming basics</li>
+                        <li>3D game design</li>
+                        <li>Multiplayer game mechanics</li>
+                        <li>Roblox Studio tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="leadership" class="orange-section">
+        <div class="content">
+            <h1>Our Leadership Team</h1>
+            <div class="leadership-cards">
+                <div class="leadership-card">
+                    <div class="card-front">
+                        <div class="leadership-avatar avatar-1">
+                            <span class="avatar-initials">TK</span>
+                        </div>
+                        <h3>Tanav Kambhampati</h3>
+                        <p>Co-President</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Tanav Kambhampati</h3>
+                        <p>Del Norte High School Class of 2026</p>
+                        <p>Co-President</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="card-front">
+                        <div class="leadership-avatar avatar-2">
+                            <span class="avatar-initials">IM</span>
+                        </div>
+                        <h3>Imaad Muzaffer</h3>
+                        <p>Co-President</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Imaad Muzaffer</h3>
+                        <p>Del Norte High School Class of 2026</p>
+                        <p>Co-President</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="card-front">
+                        <div class="leadership-avatar avatar-3">
+                            <span class="avatar-initials">SG</span>
+                        </div>
+                        <h3>Saathvik Gampa</h3>
+                        <p>Vice President</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Saathvik Gampa</h3>
+                        <p>Del Norte High School Class of 2026</p>
+                        <p>Vice President</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="card-front">
+                        <div class="leadership-avatar avatar-4">
+                            <span class="avatar-initials">SS</span>
+                        </div>
+                        <h3>Sri Surapaneni</h3>
+                        <p>Coding Lead</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Sri Surapaneni</h3>
+                        <p>Del Norte High School Class of 2026</p>
+                        <p>Coding Lead</p>
+                    </div>
+                </div>
+                <div class="leadership-card">
+                    <div class="card-front">
+                        <div class="leadership-avatar avatar-5">
+                            <span class="avatar-initials">ST</span>
+                        </div>
+                        <h3>Sai Talisetty</h3>
+                        <p>Coding Lead</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Sai Talisetty</h3>
+                        <p>Del Norte High School Class of 2026</p>
+                        <p>Coding Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="grey-section">
+        <div class="content">
+            <h1>Join Coding4Kidz</h1>
+            <p>Sessions: ~ 2 months</p>
+            <p>Coding for Kidz is a club that was created in Del Norte High School. The main goal of this club and non-profit organization is to teach kids basic coding and introduce them to the STEM field.</p>
+            <ul class="program-features">
+                <li>Class times vary between branches</li>
+                <li>Sessions last about 2 months (varies by branch)</li>
+                <li>Main Syllabus: Scratch, Python, Java</li>
+                <li>Additional topics may be offered at specific branches</li>
+            </ul>
+            <div class="contact-buttons">
+                <a href="#signup" class="cta-button">Join Now - Register/Login</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0lAbVWAY7wcDwbd6vvSHJqugAxHgUmoTf-chFUIn9aMK3Aw/viewform" class="cta-button">Official Sign Up Form</a>
+                <a href="#signup" class="cta-button">View Flyer</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 Coding4Kidz</p>
+        <p>501(c) registered, approval pending</p>
+    </footer>
+    
+    <div class="developer-watermark">
+        <i class="fab fa-github"></i> coded by SGTECH08
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
